@@ -1,3 +1,4 @@
+""
 def f(n):
     a=1
     while n!=0:
@@ -5,10 +6,11 @@ def f(n):
         n=n-1
     return a
 n=int(input())
-s=0
+b=0
 while n!=0:
-    s+=f(n)
+    b+=f(n)
     n=n-1
-print(s)
+print(b)
+""
 
 
